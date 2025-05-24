@@ -8396,7 +8396,7 @@ h1, h2, h3, h4, h5,
   text-align: center;
   text-orientation: sideways;
   margin: 0rem;
-  position: relative;
+  position: absolute;
   top: 0;
   left: 4em;
   height: 100%;
@@ -8412,7 +8412,7 @@ h1, h2, h3, h4, h5,
       display: none; } }
 
 .owl-carousel {
-  position: absolute; }
+  position: relative; }
   .owl-carousel .owl-item {
     opacity: .4; }
     .owl-carousel .owl-item.active {
@@ -8521,7 +8521,7 @@ h1, h2, h3, h4, h5,
             width: 100%; }
             @media (min-width: 992px) {
               .owl-carousel.home-slider .slider-item .slider-text .one-forth .text {
-                position: fixed;
+                position: absolute;
                 top: 50%;
                 left: 0;
                 -webkit-transform: translateY(-50%);
@@ -8539,7 +8539,7 @@ h1, h2, h3, h4, h5,
           text-transform: uppercase;
           color: #ffbd39; }
         .owl-carousel.home-slider .slider-item .slider-text .text {
-          position: fixed;
+          position: relative;
           z-index: 1; }
         .owl-carousel.home-slider .slider-item .slider-text h1 {
           font-size: 60px;
@@ -8586,7 +8586,7 @@ h1, h2, h3, h4, h5,
           display: none; } }
       .owl-carousel.home-slider .owl-nav .owl-prev,
       .owl-carousel.home-slider .owl-nav .owl-next {
-        position: fixed;
+        position: absolute;
         width: 60px;
         height: 60px;
         background: #fff !important;
@@ -8652,7 +8652,7 @@ h1, h2, h3, h4, h5,
   background-size: cover;
   background-repeat: no-repeat; }
   .hero-wrap .overlay {
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;

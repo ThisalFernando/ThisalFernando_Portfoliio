@@ -8392,7 +8392,8 @@ h1, h2, h3, h4, h5,
   @media (max-width: 1199.98px) {
     .hero h3.vr {
       opacity: 0;
-      display: none; } }
+      display: none; 
+      pointer-events: auto;} }
 
 .owl-carousel {
   position: relative; }
